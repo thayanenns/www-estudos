@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Demo - Currículo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+</head>
+<body>
+    <div id="container">
+        <div id="lateral">
+            <div id="photo"></div>
+            <div id="info">
+                <h2>Contact</h2>
+                <i class="fa fa-user"></i><span>User</span>
+            </div>
+        </div>
+        <div id="conteudo">
+            <h2>Experience</h2>
+            <div class="card">
+                <h2>Developer</h2>
+                <p>Descrição</p>
+            </div>
+            <div class="card">
+                <h2>Developer</h2>
+                <p>Descrição</p>
+            </div>
+            <div class="card">
+                <h2>Developer</h2>
+                <p>Descrição</p>
+            </div>
+            <div class="card">
+                <h2>Master of Arts</h2>
+                <p>Descrição</p>
+            </div>
+            <div class="card">
+                <h2>Bachalor of Science</h2>
+                <p>Descrição</p>
+            </div>
+        </div>
+    </div>
+</body>
+<style> 
+    body{
+        margin: 0px;
+        background-color: grey;
+    }
+    #container{
+        display: flex;
+        width: 90%;
+        margin: auto;
+    }
+
+    #lateral{
+        width: 30%;
+        background-color: black;
+        color: white;
+    }
+
+    #conteudo{
+        width: 70%;
+        padding: 10px;
+        background-color: #c0c5ce;
+    }
+
+    .card{
+        background-color: white;
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    #photo{
+        text-align: center;
+        height: 40%;
+        background: url('https://ps.w.org/user-avatar-reloaded/assets/icon-128x128.png?rev=2540745') 0 0;
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center;
+    }
+
+    #info{
+        padding: 10%;
+        font-size: 1rem;
+    }
+
+    #info i{
+        color: white;
+    }
+
+    span{
+        margin-left: 10px;
+    }
+</style>
+</html>
