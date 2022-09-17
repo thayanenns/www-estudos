@@ -1,0 +1,26 @@
+body{
+    background-color: white;    
+}
+
+#card-principal{
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #494e5f;
+}
+
+.card{
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+#info{
+    padding: 15%;
+    font-size: 1rem;
+    vertical-align:middle;
+    background-color: #494e5f;
+    height: 100%;
+}
+
+
